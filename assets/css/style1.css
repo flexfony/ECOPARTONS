@@ -1,0 +1,497 @@
+@font-face {
+	font-family: "Intro_Inline";
+	src: url("../fonts/Intro_Inline.otf");
+}
+
+@font-face {
+	font-family: "Androgyne_TB";
+	src: url("../fonts/Androgyne_TB.otf");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+.nav-link {
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.back1 {
+	background-image: url('../images/back1.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-weight: 500;
+	color: #000000 !important;
+}
+
+.back {
+	background-image: url('../images/back.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-weight: 500;
+	color: #000000 !important;
+}
+
+.pd-left {
+	padding-left: 50px !important;
+}
+
+.heading {
+	margin-top: -40%;
+	margin-left: -80px;
+	color: #fff !important;
+	font-size: 70px;
+	font-weight: 700;
+	text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 20px rgba(255, 255, 255, 0.473);
+}
+
+.dropbtn {
+	position: inherit;
+	background-color: transparent;
+	color: rgb(39, 185, 10);
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	min-width: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	overflow: visible;
+}
+
+.dropdown-content a {
+	color: rgb(104, 102, 102);
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	margin: 0px;
+	border: none;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: transparent;
+	margin-top: 10px;
+	border-left: solid 1px rgb(39, 185, 10);
+	border-bottom: solid 1px rgb(39, 185, 10);
+	border-right: solid 1px rgb(39, 185, 10);
+	border-radius: 0px 0px 10px 10px;
+}
+
+
+/*body*/
+
+.myH4 {
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(39, 151, 17);
+}
+
+.myH2-about {
+	margin-top: 200px;
+	margin-bottom: 15px;
+}
+
+.myH2 {
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Intro_Inline';
+	color: rgb(39, 151, 17);
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+.myP {
+	margin-top: 30px;
+	text-align: justify;
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 18px;
+	padding-bottom: 5%;
+}
+
+.myP2 {
+	margin-top: 30px;
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 18px;
+	padding-bottom: 5%;
+}
+
+.para {
+	font-style: bold;
+}
+
+.pg {
+	height: 100vh;
+}
+
+.txt-decor {
+	margin-top: 5%;
+	font-family: 'Androgyne_TB';
+	font-size: 22px;
+}
+
+table {
+	border: 1px solid grey;
+	padding: 10px;
+	background-color: white;
+}
+
+th {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgb(145, 155, 148);
+	height: 40px;
+}
+
+td {
+	padding: 5px;
+}
+
+.service-pg {
+	height: 80vh;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	margin-left: 10%;
+	text-align: center;
+	padding: 15px 5px;
+	margin-top: 2%;
+	margin-bottom: 10%;
+	height: 115px;
+	margin: auto;
+}
+
+.card i {
+	font-size: 30px;
+	color: #279711;
+	padding-bottom: 5px;
+}
+
+.modal-header i {
+	padding: 8px;
+	border: 2px solid #279711;
+	border-radius: 25px;
+}
+
+.contact {
+	width: 80% !important;
+	margin-top: 10%;
+}
+
+.card-contact {
+	background: #fff;
+	box-shadow: 0px 4px 15px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	margin-left: 10%;
+	text-align: center;
+	padding: 15px 5px;
+	height: auto;
+	margin-top: 2%;
+	margin-bottom: 10%;
+	margin: auto;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	border-top: 5px solid rgb(39, 151, 17);
+}
+
+.card-contact:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	border-top: 5px solid rgb(39, 151, 17);
+}
+
+.map {
+	border: 2px solid #112277;
+	margin-bottom: 15px;
+}
+
+.modal-list li {
+	margin: 10px auto;
+}
+
+.container {
+	padding: 2px 16px;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+	border-color: rgba(39, 171, 15, 1) !important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6) !important;
+}
+
+
+/* directors section */
+
+.directors {
+	background-image: url('../images/PLANT-ON-HAND.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-weight: 500;
+	color: #000 !important;
+}
+
+.slider-area {
+	padding: 50px 0;
+	position: relative;
+	margin: 25px 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background: transparent;
+}
+
+.img-area {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border: 3px solid #279711;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.img-area img {
+	width: 100%;
+}
+
+.team-carousel {
+	position: static;
+	padding-bottom: 15px;
+	padding-top: 18px;
+}
+
+.team-carousel {
+	color: #eee;
+}
+
+.team-carousel h3 {
+	font-size: 26px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	font-weight: 600;
+	text-shadow: -1px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.team-carousel h4 {
+	font-size: 20px;
+	color: #1bfd2c;
+	text-shadow: -1px 2px 3px rgba(0, 0, 0, 1);
+	letter-spacing: 1px;
+}
+
+.team-carousel p {
+	font-size: 16px;
+	margin: auto;
+	width: 70%;
+	margin-bottom: 10px;
+}
+
+.team-carousel-indicator {
+	bottom: -35px;
+	border-radius: 50px;
+}
+
+
+/* directors section*/
+
+@media all and (max-width:700px) {
+	.myP {
+		padding: 2%;
+	}
+}
+
+.logo-img {
+	width: 60px;
+	border-radius: 50px;
+}
+
+.cl {
+	margin-bottom: 70px;
+	padding: 0px 0px !important;
+}
+
+.rw {
+	width: 100%;
+	margin-left: 0px !important background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+	/*    position: fixed;*/
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background: rgb(72, 155, 62);
+	color: #ffffff;
+	padding: 15px;
+}
+
+.footer a {
+	color: #a5fda5;
+}
+
+.img-style {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+
+/*-----------------About Us---------------*/
+
+.about-mg {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.about-us-p {
+	padding-left: 35px;
+	margin-top: 10px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+@media screen and (max-width:767px) {
+	.mg-left {
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.img-style {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+
+	.heading {
+		margin-left: -30px;
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.about-us-p {
+		text-align: left;
+	}
+
+	.myP {
+		text-align: left;
+	}
+
+	.myP2 {
+		text-align: left;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.home {
+		margin-top: 40px !important;
+	}
+
+	.about {
+		margin-top: -150px;
+	}
+
+	.heading {
+		position: relative;
+		top: 30px !important;
+		margin-left: -10px;
+		font-size: 25px;
+	}
+
+	.heading p {
+		font-size: 10px;
+		font-weight: 300;
+	}
+
+	.card {
+		height: 125px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.about-mg {
+		margin-top: 20px;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+}
+
+.table-mgbtm {
+	margin-bottom: 70px;
+}
+
+.policy-heading {
+	margin: 10px 0px 10px 0px !important;
+}
+
+.policy-para {
+	margin-top: 0px !important;
+	padding: 0px 10px 0px 43px !important;
+}
+
+.policy-mg {
+	margin-bottom: 72px;
+}
+
+@media screen and (max-width:700px) {
+	.pg {
+		height: 100%;
+	}
+}
+
+.contact-us-style {
+	width: 100%;
+	margin-left: 0px !important;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 50px;
+}
+
+.vision-pg {
+	height: 100vh;
+}
+
+.mission-mgbtm {
+	margin-bottom: 60px;
+}
